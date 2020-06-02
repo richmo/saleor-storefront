@@ -103,7 +103,7 @@ module.exports = ({ sourceDir, distDir }) => ({
       prefix: "images/favicons/",
       favicons: {
         appName: "Saleor",
-        appDescription: "Storefront for the Saleor e-commerce platform",
+        appDescription: "Storefront for the Green Bustle e-commerce platform",
         display: "standalone",
         developerURL: null, // prevent retrieving from the nearest package.json
         background: "#ddd",

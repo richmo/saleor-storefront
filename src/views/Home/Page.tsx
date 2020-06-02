@@ -43,17 +43,17 @@ const Page: React.FC<{
         <div className="home-page__hero-text">
           <div>
             <span className="home-page__hero__title">
-              <h1>Final reduction</h1>
+              <h1>COMING SOON!</h1>
             </span>
           </div>
-          <div>
+          {/* <div>
             <span className="home-page__hero__title">
               <h1>Up to 70% off sale</h1>
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="home-page__hero-action">
-          {loading && !categories ? (
+          {/* {loading && !categories ? (
             <Loader />
           ) : (
             categoriesExist() && (
@@ -66,7 +66,7 @@ const Page: React.FC<{
                 <Button>Shop sale</Button>
               </Link>
             )
-          )}
+          )} */}
         </div>
       </div>
       <ProductsFeatured />

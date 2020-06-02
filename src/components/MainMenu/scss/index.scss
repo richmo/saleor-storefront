@@ -40,12 +40,13 @@
 
   &__center {
     align-self: center;
-
+    line-height: .75rem;
+    
     svg {
-      width: 4rem;
+      width: 7rem;
 
       @media (min-width: $small-screen) {
-        width: 6rem;
+        width: 8rem;
       }
     }
   }
