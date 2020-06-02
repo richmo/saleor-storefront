@@ -3,7 +3,7 @@ module.exports = {
     excludes: ["**/__tests__/**/*", "**/@sdk/**/*"],
     service: {
       name: "saleor",
-      url: "https://saleor-core-api.eba-ntd6wejq.us-west-2.elasticbeanstalk.com/graphql/",
+      url: "https://api.greenbustle.com/graphql/",
     },
   },
 };
